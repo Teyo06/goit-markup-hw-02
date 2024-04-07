@@ -1,0 +1,286 @@
+/* My site */
+/*index.html*/
+.body{
+   font-family: 'Roboto';
+   color: #212121;
+}
+
+ .intro{
+   background-color: #2F303A;
+}
+.intro-title{
+   padding-top: 60px;
+   font-size: 44px;
+   color:#ffffff;
+   text-align: center;
+   padding: 100px;
+}
+.intro-button{
+   color: #ffffff;
+   background-color: #2196F3;
+   padding: 10px 20px;
+      font-size: 16px;
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+}   
+button{
+   padding: 10px 20px;
+   font-size: 16px;
+   background-color: #2196f3;
+   color: #ffffff;
+   border: none;
+   border-radius: 5px;
+   
+}
+.container{
+   display: flex;
+   justify-content:space-evenly;
+}
+.image-container{
+   display: flex;
+   margin: right 10px;
+}
+.item{
+   width:200px;
+   
+}
+.item h2 {
+   margin-top: 0;
+}
+img{
+   display: inline;
+   justify-content: space-between;
+
+}
+
+.employee-grid{
+   display: flex;
+      grid-template-columns:4;
+      gap: 20px;
+      width: 80%;
+      margin: auto;
+      text-align: center;
+}
+
+
+.no-underline{
+   text-decoration: none;
+}
+
+.employee img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+}
+
+/*portfolio.html*/
+/* Body styles */
+body {
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.6;
+   background-color: #ffffff;
+   color: #212121;
+   font-weight: 400;
+}  
+
+/* Header section*/
+
+.header a {
+   text-decoration: none;
+}
+.header-list-item{
+   color: #212121;
+   padding-left: 20px;
+   
+}
+.header-list-item:hover{
+   text-decoration: underline;
+   color: #2196F3;
+   
+}
+.logo{
+   font-family: 'Raleway';
+   font-size: 26px;
+   font-weight: bold;
+}
+.logo:hover{
+   text-decoration: underline;
+   color: #2196F3;
+}
+.logo-color{
+   color: #2196F3;
+}
+.logo-color2{
+   color: #000000;
+}
+
+/* Header styles */
+
+header h1 {
+   font-size: 24px;
+}
+
+header {
+   background-color: #ffffff;
+   color: #212121;
+   padding-left: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 60px;
+   font-size: 14px;
+   border-bottom: 2px solid #ECECEC;
+}
+
+header h1 {
+   font-size: 24px;
+   font-weight: bold;
+}
+
+header nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   font-weight: 500;
+}
+
+header nav ul li {
+   display:inline;
+   margin-inline: 40px;
+   color: #212121;
+}
+ul {
+   list-style-type: none;
+   padding: 30;
+   display: flex;
+}
+
+section ul li {
+   margin-right: 20px;
+   color: #f5f4fa;
+}
+
+section ul li a {
+   text-decoration: none;  
+   padding: 10px;
+   border-radius: 5px;
+   font-weight: 400;
+}
+
+section ul li a:hover {
+   background-color: #2196F3;
+   color: #f5f4fa;
+}
+
+/* Portfolio section styles */
+#portfolio-section {
+   display: flex;
+   justify-content: space-around;
+   padding: 20px;
+}
+
+#portfolio-section section {
+   width: calc(33.33% - 40px); 
+   margin-bottom: 20px;
+}
+
+#portfolio-section div {
+   background-color: #fff;
+   padding: 20px;
+   text-align: center;
+   margin-bottom: 30px; 
+}
+
+#portfolio-section img {
+   max-width: 100%;
+   border-radius: 10px;
+}
+
+#portfolio-section h4 {
+   margin-top: 10px;
+   font-size: 18px;
+   font-weight:bold ;
+}
+
+#portfolio-section p {
+   margin-top: 5px;
+   color:#757575;
+   font-size: 16px;
+}
+
+/* Styles for the main section */
+
+main {
+   padding: 20px;
+   padding-bottom: 100px;
+
+}
+.button-list {
+   display: flex;
+   padding-bottom: 30px;
+   padding-top: 10px;
+   justify-content: center; 
+   align-items: center;
+   margin:  auto;
+}
+.button-list div ul li a:hover{
+   text-decoration: #2196F3;
+}
+.button-list ul li a {
+   background-color: #F5F4FA;
+   color: #212121;
+}
+
+/* Styles grid items */
+
+.product-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   width: 80%;
+   margin: auto;
+}
+.product:hover{
+   border:2px solid #2196F3;
+}
+
+.product {
+   text-align: left;
+}
+
+.product img {
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+}
+
+.product h4 {
+   margin: 0;
+   font-size: 18px;
+   color: #212121;
+}
+
+.product p {
+   margin: 0;
+   color: #757575;
+}
+
+
+/* Footer Section */
+
+footer{
+   background-color: #2F303A;
+   padding: 30px;
+}
+.footer-info{
+   padding: 0;
+   margin: 0;
+   display: list-item;
+   color: #ffffff;
+}
+.logo-color3{
+   color: #ffffff;
+}
