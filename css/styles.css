@@ -71,6 +71,7 @@ body {
 
 .header a {
    text-decoration: none;
+   color: #000000;
 }
 .header-item{
    color: #212121;
@@ -177,7 +178,7 @@ button:hover{
    margin: auto;
 }
 .product:hover{
-   border:2px solid var(#2196F3);
+   border:2px solid #2196F3;
 }
 
 .product {
