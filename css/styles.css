@@ -15,16 +15,7 @@
    color:#ffffff;
    text-align: center;
    padding: 100px;
-}
-.intro-button{
-   color: #ffffff;
-   background-color: #2196F3;
-   padding: 10px 20px;
-   font-size: 16px;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
-}   
+}  
 
 .container{
    display: flex;
@@ -44,7 +35,6 @@
 img{
    display: inline;
    justify-content: space-between;
-
 }
 
 .employee-grid{
