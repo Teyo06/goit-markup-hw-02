@@ -5,7 +5,6 @@
    font-family: 'Roboto', 'Noto Sans', sans-serif;
    color: #212121;
 }
-
  .intro{
    background-color: #2F303A;
 }
@@ -23,7 +22,7 @@
 }
 .image-container{
    display: flex;
-   margin: right 10px;
+   margin: 10px;
 }
 .item{
    width:200px;
@@ -39,11 +38,9 @@ img{
 
 .employee-grid{
    display: flex;
-      grid-template-columns:4;
-      gap: 20px;
-      width: 80%;
-      margin: auto;
-      text-align: center;
+   gap: 20px;
+   width: 80%;
+   margin: auto;
 }
 
 
@@ -136,7 +133,7 @@ header nav ul li {
 }
 ul {
    list-style-type: none;
-   padding: 30;
+   padding: 30px;
    display: flex;
 }
 
